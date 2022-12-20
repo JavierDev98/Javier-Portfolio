@@ -10,44 +10,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 <body>
         <div class="centerleft">
-            <button class="buttonsinfo">Contact Me</button>
-            <button class="buttonsinfo"><a href="indexes.html">Español</a></button>
-
-            <h1 id="toppage">Hi, I'm Javier.</h1>
-            <h2>a full-stack web development student.</h2>
+            <a href="" id="verytop" style="position: absolute;"></a>
+            <a href="" class="buttonanc">Contact Me</a>
+            <a href="indexes.html" class="buttonanc">Español</a>
+            <!-- Style these buttons ASAP, MAKE THEM ANCHORS-->
+            <h1 id="toppage">Hi, I'm Javier</h1>
+            <h2 style="font-size: 35px;">a full-stack web development student.</h2>
   
             <p>Arcu dictum varius duis at. Volutpat sed cras ornare arcu dui vivamus arcu felis.</p>
             <p>Mauris vitae ultricies leo integer malesuada nunc vel risus. Facilisis mauris sit amet massa vitae tortor condimentum lacinia quis. Sit amet commodo nulla facilisi nullam vehicula ipsum. </p>
             <p>. In nisl nisi scelerisque eu ultrices vitae auctor eu.</p>
             <p>Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Porta lorem mollis aliquam ut porttitor.   </p>
             <p>Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. </p>
+            <hr>
             <h1>What I know</h1>
             <p>. In nisl nisi scelerisque eu ultrices vitae auctor eu.</p>
             <p>. In nisl nisi scelerisque eu ultrices vitae auctor eu.</p>
             <p>. In nisl nisi scelerisque eu ultrices vitae auctor eu.</p>
             <p>. In nisl nisi scelerisque eu ultrices vitae auctor eu.</p>
             <p>. In nisl nisi scelerisque eu ultrices vitae auctor eu.</p>
+            <hr>
             <h1>Projects</h1>
-            <p>. In nisl nisi scelerisque eu ultrices vitae auctor eu.</p>
-            <div class="projectslist">
+            <p>. When thinking about what projects I should ask, I thought it would a good idea to have some variety, so here you have a list of projects that I've worked on to showcase my
+                abilites and some of their specifications.</p>
                 <ul style="list-style: none">
-                <li><button class="projectbutton"><a href="#project1">Project 1</a></button></li>
-                <li><button class="projectbutton"><a href="#project2">Project 2</a></button></li>
-                <li><button class="projectbutton"><a href="#project3">Project 3</a></button></li>
+                <li><a href="#project1" class="buttonanc2">Project 1</a></li>
+                <li><a href="#project2" class="buttonanc2">Project 2</a></li>
+                <li><a href="#project3" class="buttonanc2">Project 3</a></li>
                  </ul>
-            </div>
-
+            <!--Instead of calling them "projects", use their actual name. Let's suppose you build a shop, use the shop's name-->
+            <!-- Dont forget to add your motto-->
             <div id="project1">
-                <h1>Project 1</h1>
-                <p>Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Porta lorem mollis aliquam ut porttitor.</p>
+                <h1>Pets</h1>
+                <p>This page is built using only Bootstrap and CSS..</p>
                 <img src="./images/placeholder.png" alt="placeholder">
                 <p>Arcu dictum varius duis at. Volutpat sed cras ornare arcu dui vivamus arcu felis.</p>
                 <p>Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Porta lorem mollis aliquam ut porttitor.   </p>
             <p>Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. </p>
             </div>
+            <hr>
             <div id="project2">
                 <h1>Project 2</h1>
                 <p>Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Porta lorem mollis aliquam ut porttitor.</p>
@@ -56,6 +61,7 @@
                 <p>Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Porta lorem mollis aliquam ut porttitor.   </p>
             <p>Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. </p>
             </div>
+            <hr>
             <div id="project3">
                 <h1>Project 3</h1>
                 <p>Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. Vitae suscipit tellus mauris a diam maecenas sed enim ut. Porta lorem mollis aliquam ut porttitor.</p>
@@ -65,10 +71,10 @@
             <p>Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. </p>
             </div>
             <h2>Wow! You got to the bottom, go back to the top:</h2>
-            <button class="projectbutton"><a href="#toppage">Go to the top</a></button>
+            
 
         </div>
-
+        <a href="#verytop" id="gototop">Go to the top</a>
     
 </body>
 </html>
