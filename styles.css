@@ -16,11 +16,9 @@ a {
     margin-top: 50px;
 }
 
-.centerleft {
-    display: inline-block;
+.container {
     text-align: left;
-    margin-left: 600px;
-    margin-right: 600px;
+    padding: 3% 4%;
 }
 
 img {
