@@ -21,7 +21,8 @@ a {
 
 .container {
     text-align: left;
-    width: 800px;
+    width: auto;
+    display: inline-block;
 }
 
 img {
