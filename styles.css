@@ -1,93 +1,95 @@
 body {
-    margin: 0;
-    background-color: rgb(17, 24, 39);
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: white;
+  margin: 0;
+  background-color: rgb(17, 24, 39);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
 }
-h2, h3, p {
-    color: rgb(203 213 225);
+h2,
+h3,
+p {
+  color: rgb(203 213 225);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #toppage {
-    font-size: 70px;
-    margin-top: 50px;
+  font-size: 70px;
+  margin-top: 50px;
 }
 
 .container {
-    text-align: left;
-    width: auto;
-    display: inline-block;
+  text-align: left;
+  width: auto;
+  display: inline-block;
 }
 
 img {
-    width: 300px;
-    border-radius: 3%;
+  width: 300px;
+  border-radius: 3%;
 }
 
 .footerstyling {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 hr {
-    margin: auto auto;
-    width: 50%;
-    border-color: grey;
+  margin: auto auto;
+  width: 50%;
+  border-color: grey;
 }
 
 .buttonanc {
-    position: relative;
-    top: 15px;
-    padding: 10px;
-    background-color: #3D426B;
-    color: white;
-    border-radius: 5px;
+  position: relative;
+  top: 15px;
+  padding: 10px;
+  background-color: #3d426b;
+  color: white;
+  border-radius: 5px;
 }
 
 .buttonanc:hover {
-    position: relative;
-    top: 15px;
-    padding: 10px;
-    background-color: #32375e;
-    color: white;
-    border-radius: 5px;
+  position: relative;
+  top: 15px;
+  padding: 10px;
+  background-color: #32375e;
+  color: white;
+  border-radius: 5px;
 }
 
 .buttonanc2 {
-   display: inline-block;
-    position: relative;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #3D426B;
-    color: white;
-    border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #3d426b;
+  color: white;
+  border-radius: 5px;
 }
 
-.buttonanc2:hover { 
-    padding: 10px;
-    background-color: #32375e;
-    color: white;
-    border-radius: 5px;
+.buttonanc2:hover {
+  padding: 10px;
+  background-color: #32375e;
+  color: white;
+  border-radius: 5px;
 }
 
 #gototop {
-    display: inline-block;
-     position: relative;
-     padding: 10px;
-     background-color: #3D426B;
-     color: white;
-     border-radius: 5px;
- }
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  background-color: #3d426b;
+  color: white;
+  border-radius: 5px;
+}
 
- #gototop:hover { 
-    padding: 10px;
-    background-color: #32375e;
-    color: white;
-    border-radius: 5px;
+#gototop:hover {
+  padding: 10px;
+  background-color: #32375e;
+  color: white;
+  border-radius: 5px;
 }
