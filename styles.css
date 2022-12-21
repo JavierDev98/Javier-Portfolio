@@ -21,10 +21,14 @@ a {
   margin-top: 50px;
 }
 
-.container {
+.row {
   text-align: left;
   width: auto;
   display: inline-block;
+}
+
+.container {
+  max-width: 44rem;
 }
 
 img {
